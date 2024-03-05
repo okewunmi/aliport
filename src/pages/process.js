@@ -14,7 +14,7 @@ import {
 } from "react-icons/fa";
 import { BsArrowRight } from "react-icons/bs";
 import { WiMoonAltFirstQuarter } from "react-icons/wi";
-import { ThemeProvider, useTheme } from "./ThemeContext";
+import { ThemeProvider, useTheme } from "../ThemeContext";
 import { HiOutlineMenuAlt4 } from "react-icons/hi";
 import Slider from "../../Component copy/Menu/page";
 import Nav from "../../Component copy/Nav/Index";

@@ -1,6 +1,6 @@
 "use client";
 import React, { useState } from "react";
-import { useTheme } from "./ThemeContext";
+import { useTheme } from "../ThemeContext";
 import { IoPersonCircle } from "react-icons/io5";
 import { IoIosMail } from "react-icons/io";
 import { Wrapper } from "../../Component copy/Header/styles";

@@ -20,7 +20,7 @@ import Image from "next/image";
 import { HiOutlineMenuAlt4 } from "react-icons/hi";
 import Slider from "../../Component copy/Menu/page";
 import Footer from "../../Component copy/Footer/Index";
-import { useTheme } from "./ThemeContext";
+import { useTheme } from "../ThemeContext";
 
 const Index = () => {
   const { isDarkMode } = useTheme();

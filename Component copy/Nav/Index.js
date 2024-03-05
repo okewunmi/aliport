@@ -4,7 +4,7 @@ import { useRouter } from "next/navigation";
 import { NavBar } from "./styles";
 import { WiMoonAltFirstQuarter } from "react-icons/wi";
 import { LuSunMoon } from "react-icons/lu";
-import { ThemeContext, useTheme } from "../../src/pages/ThemeContext";
+import { ThemeContext, useTheme } from "../../src/ThemeContext";
 import { HiOutlineMenuAlt4 } from "react-icons/hi";
 import Slider from "../Menu/page";
 import Image from "next/image";

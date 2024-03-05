@@ -5,7 +5,7 @@ import { FaTwitter, FaSlack, FaGithub, FaDribbble } from "react-icons/fa";
 import Link from "next/link";
 import { IoPersonCircle } from "react-icons/io5";
 import { IoIosMail } from "react-icons/io";
-import { useTheme } from "../../src/pages/ThemeContext";
+import { useTheme } from "../../src/ThemeContext";
 import Nav from "../Nav/Index";
 const Index = () => {
   const { isDarkMode } = useTheme();

@@ -3,7 +3,7 @@ import { Content } from "./styles";
 import Link from "next/link";
 import Image from "next/image";
 import { FaTwitter, FaSlack, FaGithub, FaDribbble } from "react-icons/fa";
-import { ThemeContext, useTheme } from "../../src/pages/ThemeContext";
+import { ThemeContext, useTheme } from "../../src/ThemeContext";
 
 const Index = () => {
   const { isDarkMode } = useTheme();

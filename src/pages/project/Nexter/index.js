@@ -1,7 +1,7 @@
 "use client";
 import React, { useState } from "react";
 import { Wrapper } from "../../../../Component copy/Header/styles";
-import { Content } from "../Kita/styles";
+import { Content } from "../../../styles/kita";
 import Nav from "../../../../Component copy/Nav/Index";
 import Link from "next/link";
 import Image from "next/image";
@@ -11,7 +11,7 @@ import { WiMoonAltFirstQuarter } from "react-icons/wi";
 // import { NavBar } from "/Component/Nav/styles";
 import { HiOutlineMenuAlt4 } from "react-icons/hi";
 import { MdArrowBackIos } from "react-icons/md";
-import { useTheme } from "../../../pages/ThemeContext";
+import { useTheme } from "../../../ThemeContext";
 
 const Index = () => {
   const { isDarkMode, setDarkMode } = useTheme(false);

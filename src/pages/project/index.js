@@ -1,6 +1,6 @@
 "use client";
 import React, { useState } from "react";
-import { Wrapper } from "./styles";
+import { Wrapper } from "../../styles/project";
 import Link from "next/link";
 import { FaTwitter, FaSlack, FaGithub, FaDribbble } from "react-icons/fa";
 import Image from "next/image";
@@ -10,7 +10,7 @@ import { Bounce, Fade } from "react-swift-reveal";
 import Slider from "../../../Component copy/Menu/page";
 import Nav from "../../../Component copy/Nav/Index";
 import Footer from "../../../Component copy/Footer/Index";
-import { useTheme } from "../ThemeContext";
+import { useTheme } from "../../ThemeContext";
 
 const Index = () => {
   const { isDarkMode, setDarkMode } = useTheme();
