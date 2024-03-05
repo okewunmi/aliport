@@ -2,7 +2,7 @@
 import React, { useState } from "react";
 import { Wrapper } from "../../../../Component copy/Header/styles";
 import { Content } from "../Kita/styles";
-import Nav from "../../../Component copy/Nav/Index";
+import Nav from "../../../../Component copy/Nav/Index";
 import Link from "next/link";
 import Image from "next/image";
 import { Fade } from "react-swift-reveal";

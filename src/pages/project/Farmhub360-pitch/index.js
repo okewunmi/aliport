@@ -7,7 +7,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { Fade } from "react-swift-reveal";
 import { FaBehance } from "react-icons/fa";
-import { NavBar } from "@/Com/ponent/Na/v/styles";
+// import { NavBar } from "@/Com/ponent/Na/v/styles";
 import { WiMoonAltFirstQuarter } from "react-icons/wi";
 import { HiOutlineMenuAlt4 } from "react-icons/hi";
 import { MdArrowBackIos } from "react-icons/md";
