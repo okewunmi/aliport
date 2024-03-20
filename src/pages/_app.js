@@ -27,15 +27,27 @@ const nunito_Sans = Nunito_Sans({
 
 export default function App({ Component, pageProps }) {
   return (
-    <html lang="en">
-      <body
-        className={`${inter.variable} ${abril_Fatface.variable} ${nunito_Sans.variable}`}
-      >
-        <ThemeProvider>
-          <Component {...pageProps} />
-        </ThemeProvider>
-      </body>
-    </html>
+    <>
+      <style jsx global>{`
+        html {
+          font-family: ${inter.style.fontFamily}
+            ${abril_Fatface.style.fontFamily} ${nunito_Sans.style.fontFamily};
+        }
+      `}</style>
+      <ThemeProvider>
+        <Component {...pageProps} />
+      </ThemeProvider>
+    </>
+
+    // <html lang="en">
+    //   <body
+    //     className={`${inter.variable} ${abril_Fatface.variable} ${nunito_Sans.variable}`}
+    //   >
+    //     <ThemeProvider>
+    //       <Component {...pageProps} />
+    //     </ThemeProvider>
+    //   </body>
+    // </html>
 
     // <ThemeProvider>
     //   <Component {...pageProps} />
